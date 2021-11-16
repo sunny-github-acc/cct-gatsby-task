@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/cct-gatsby-task",
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: "cct-gatsby-task",

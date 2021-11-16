@@ -8,6 +8,7 @@ import React, { useEffect, useState } from "react";
 import styled, { useTheme } from "styled-components";
 import { Theme, TODOItem } from "../types/interfaces";
 import * as _ from "lodash";
+import { isEmailValid } from "../utils/emailValidation";
 
 interface Button {
   bg?: string;
@@ -108,7 +109,7 @@ const NestedList = ({
                   </ImageContainer>
                   <NestedText>
                     {task.split(" ").map((word) => {
-                      if (word.includes("@") && word.includes(".com")) {
+                      if (isEmailValid(word)) {
                         return <Email key={word}>{word} </Email>;
                       } else {
                         return word + " ";
