@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcct_gatsby_task=self.webpackChunkcct_gatsby_task||[]).push([[691],{6738:function(t,n,c){c.r(n);var e=c(7294);n.default=function(){return e.createElement("button",{id:"add-discard",onClick:function(){return console.log("handleOpenClick()")}})}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-8197db25f0e4f389c3c4.js.map
